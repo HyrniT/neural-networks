@@ -34,9 +34,9 @@ The following hidden code cell ensures that the Colab will run on TensorFlow 2.X
 ## Definition
 
 ### 1. Build and train a model function
-```create_model(my_learning_rate, feature_layer)```, which tells TensorFlow to build a linear regression model and to use the `feature_layer_as_fp` as the representation of the model's features.
+* ```create_model(my_learning_rate, feature_layer)```, which tells TensorFlow to build a linear regression model and to use the `feature_layer_as_fp` as the representation of the model's features.
 
-```train_model(model, dataset, epochs, label_name, batch_size)```, which will ultimately train the model from training set examples.
+* ```train_model(model, dataset, epochs, label_name, batch_size)```, which will ultimately train the model from training set examples.
 
 ### 2. Plotting function
 * ```plot_the_loss_curve(epochs, rmse)```,a loss curve.
